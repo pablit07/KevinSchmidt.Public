@@ -393,19 +393,23 @@ margin:0 auto;
 .nav-body { padding: 0 0 20px 0;}
 
 a.feature_6{
-width:202px;
+width:200px;
 height:103px;
 display:block;
-background:url('images/feature_6.jpg') 0 0 no-repeat;
+background:url('images/feature_6.gif') 0 0 no-repeat;
 float:left;
 margin:-5px 0 0 19px;
+box-shadow: 0 0 5px 0 black;
+xborder: 3px solid #9cc4e7;
+xborder-radius: 5px;
+text-indent: -99999em;
 
 }
 a.feature_7{
 width:202px;
 height:103px;
 display:block;
-background:url('images/feature_6.jpg') 0 0 no-repeat;
+background:url('images/feature_6.gif') 0 0 no-repeat;
 float:left;
 margin:-5px 0 0 19px;
 }
