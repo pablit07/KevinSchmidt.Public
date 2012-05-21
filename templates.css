@@ -1,0 +1,36 @@
+
+.full {
+	width: 100%;
+}
+
+.fullHeight {
+	height: 100%;
+}
+
+div.center { text-align: center; }
+div.center > span { display: inline-block;}
+
+div.columnLayout { clear: left; }
+
+div.columnLayout > div.inner {
+	float: left;
+	border: none !important;
+	padding-left: 0 !important; padding-right: 0 !important;
+	margin-left: 0 !important; margin-right: 0 !important;
+}
+
+div.columnLayout1 > div.inner {	width: 100%; }
+div.columnLayout2 > div.inner {	width: 50%; }
+div.columnLayout3 > div.inner { width: 33.33%; }
+div.columnLayout4 > div.inner {	width: 25%; }
+div.columnLayout5 > div.inner {	width: 20%; }
+
+
+
+
+/* testing below here */
+
+
+div.border {
+	border-left: 1px solid black;
+}
