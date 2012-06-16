@@ -37,10 +37,14 @@ div.nav.alignRight > ul { text-align: right; }
 
 div.nav li { display: inline-block; text-align: center; }
 div.nav a { text-decoration: none; display: block;}
-div.nav li ul { position: absolute; top: 100%; visibility: hidden;}
-div.nav li:hover ul { visibility: visible; }
+div.nav li > ul { position: absolute; top: 100%; visibility: hidden;}
+div.nav li:hover > ul { visibility: visible; }
 
-div.nav li ul li { display: block; text-align: left; }
+div.nav li ul li { display: inline; text-align: left; }
+
+div.nav li ul li { position: absolute; left: 100%; visibility: hidden;}
+
+div.nav li:hover > ul { visibility: visible; }
 
 div.nav a.contains {
 	border-right: 8px solid transparent; position: relative;
