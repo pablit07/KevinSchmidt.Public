@@ -19,21 +19,14 @@
 	<link rel="stylesheet" type="text/css" href="css/templates.css?v=2">
 
 </head>
-<body class="both_backgrounds"> 
+<body class=""> 
 
 	<!-- add height and width. html duh. position them where they belong.  -->
 
-	<div class="contentWrapper">
+	<div class="navWrapper">
+
 
 <?php
-
-	echoTemplate("columnLayout", array(
-					"name" => "TitleBar",
-					"columns" => 
-						array(
-								array(
-									"contents" => "<div>&nbsp;</div>"
-								))));
 
 	echoTemplate("nav", array('align' => 'center','buttons'=>
 	array(
@@ -64,38 +57,47 @@
 		'Contact'=>''
 		
 		)));
-		?>
-			<header><h1>Dr. Kevin Schmidt, <label>M.D., M.A., Pain Medicine Fellow; Interventional Psychiatrist</label>
-			</h1>
-			<div id="contact-btn-toolbar"class="btn-toolbar">
-				<div class="btn-group">
-					<button class='btn btn-info btn-provider dropdown-toggle' data-toggle='dropdown'>Health Care Providers
-					 <label>Please click to contact</label></button>
-					<ul class="dropdown-menu">
-			            <li><a href="#"> Ask a secure question</a></li>
-			            <li><a href="#">Health Care Provider Sign In</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Request a referral</a></li>
-		  
+?>
 
-		          </ul>
-	          	</div>
-	      		<div class="btn-group">
-					<button class='btn btn-info btn-patient dropdown-toggle' data-toggle='dropdown'>Patients
-						<label>Please click to contact</label></button>
-					<ul class="dropdown-menu">
-			            <li><a href="#">Make An Appointment</a></li>
-			            <li class="divider"></li>
-			            <li><a href="#">Contact Info</a></li>
-			            <li><a href="#">Office Location</a></li>
-		          </ul>
-          		</div>
-	        </div>
+
+	</div>
+
+	<div class="headerWrapper">
+
+
+			<header class="primary">
+
+				<h1>Dr. Kevin Schmidt, <label>M.D., M.A., Pain Medicine Fellow; Interventional Psychiatrist</label></h1>
+				
+				<div id="contact-btn-toolbar"class="btn-toolbar">
+					<div class="btn-group">
+						<button class='btn btn-info btn-provider dropdown-toggle' data-toggle='dropdown'>Health Care Providers
+						 <label>Please click to contact</label></button>
+						<ul class="dropdown-menu">
+				            <li><a href="#"> Ask a secure question</a></li>
+				            <li><a href="#">Health Care Provider Sign In</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">Request a referral</a></li>
+			  
+
+			          </ul>
+		          	</div>
+		      		<div class="btn-group">
+						<button class='btn btn-info btn-patient dropdown-toggle' data-toggle='dropdown'>Patients
+							<label>Please click to contact</label></button>
+						<ul class="dropdown-menu">
+				            <li><a href="#">Make An Appointment</a></li>
+				            <li class="divider"></li>
+				            <li><a href="#">Contact Info</a></li>
+				            <li><a href="#">Office Location</a></li>
+			          </ul>
+	          		</div>
+	        	</div>
 	      
-			</header>
 		<?php
 	
 	echoTemplate("columnLayout", array(
+		"class"=>"floatfix",
 		"columns"=>array(
 			array("contents" => fillTemplate("pictureLink", array('class'=> 'banner_link', 'contents'=>'Comprehensive Pain Management', 'align'=>'centerBottom'))),
 			array("contents" => fillTemplate("pictureLink", array('class'=> array('banner_link', 'middle_left_link'), 'contents'=>'Sports & Musculoskeletal Medicine', 'align'=>'centerBottom'))),
@@ -103,24 +105,53 @@
 			array("contents" => fillTemplate("pictureLink", array('class'=> array('banner_link', 'right_link'), 'contents'=>'Electrodiagnostic Medicine', 'align'=>'centerBottom')))
 
 			)));
+			?>
+
+
+		</header>
+	</div>
+	<div class="contentWrapper floatfix">
+
+<?php
 
 	echoTemplate("columnLayout", array(
+		"class"=>"primary",
 		"columns"=>array(
 			array("contents" => fillTemplate("pictureLink", array('class'=> 'quick_link', 'contents'=>'Referrals', 'align'=>'leftCenter'))),
 			array("contents" => fillTemplate("pictureLink", array('class'=> 'quick_link','contents'=>'FAQ', 'align'=>'leftCenter'))),
 			array("contents" => fillTemplate("pictureLink", array('class'=> 'quick_link', 'contents'=>'Share your clinical questions', 'align'=>'leftCenter'))),
 			array("contents" => fillTemplate("pictureLink", array('class'=> 'quick_link', 'contents'=>'Write a review', 'align'=>'leftCenter')))
 			)));
-
-	echoTemplate("columnLayout", array(
-		"columns"=>array(
-			array("contents" => "<div>&nbsp;</div>"),
-			array("contents" => fillTemplate("columnLayout",
-				array("columns"=>array(
-					array("contents" => "<div>&nbsp;</div>"),
-					array("contents" => "<div>&nbsp;</div>")
-			)))))));
 ?>
+	<div class="content primary">
+
+
+		<article class="fleft">
+			<h1>Pain Management Denver Colorado</h1>
+
+		</article>
+
+		<div class="bio fleft">
+			<img height=200 width=150 src='images/drs.png' />
+		</div>
+
+		<form class="fleft">
+			<header>
+				<h6>Appointments & Questions</h6>
+			<input type=text name=firstname value='First name'/>
+			<input type=text name=lastname value='Last name'/>
+			<input type=text name=email value='Email address ex. guy@thefarm.com'/>
+			<label>
+				What is a description of your question or concern?
+			</label>
+			<textarea>
+
+			</textarea>
+			<buttun type=submit />
+		</form>
+
+
+	</div>
 
 
 	</div>

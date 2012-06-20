@@ -78,11 +78,10 @@ a.pictureLink.sports {
 
 a.pictureLink {
 	display: block; 
-	height: 100%;
 }
 
 a.pictureLink.centerBottom {
-	display: table-cell;
+	
 	vertical-align: bottom;
 	text-align: center;
 }

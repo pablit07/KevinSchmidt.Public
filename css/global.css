@@ -4,7 +4,7 @@ ul, li {
 	margin: 0;
 }
 a {text-decoration: none;}
-body {width: 100%; height: 1000px;}
+body {width: 100%; height: 768px; overflow: scroll;}
 
 h1 { display: inline-block;}
 
@@ -66,13 +66,13 @@ h1 { display: inline-block;}
   margin: 0 auto 0 auto;
 }
 
-.contentWrapper {
+.primary {
   width: 1020px;
   margin: 0 auto;
 }
 
 .blueflame {
-  background-image: url(../images/blue-flame.JPG);
+  background-image: url(../images/blue-flame.png);
   -moz-background-size: cover;
   -o-background-size: cover; /*HEY PAUL!!!!!!!!!! I found these two lines online. They don't seem to have an effect. What do they mean?*/
   margin:0;
@@ -96,9 +96,9 @@ h1 { display: inline-block;}
 *:first-child+html .clear { zoom: 1; } /* IE7 */
 
 .both_backgrounds {
-  background-image: url(../images/blue-flame.JPG), url(../images/border-gradient.jpg);
+  background-image: url(../images/blue-flame.png), url(../images/border-gradient.jpg);
   background-size: 100% 202px, 100% 40px;
-  background-position: 0 0, 0 202px;
+  background-position: 0 200px, 0 402px;
   background-repeat: no-repeat, repeat-x;
   margin: 0;
   padding: 0;

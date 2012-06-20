@@ -21,6 +21,19 @@ section {
   display: block;
 }
 
+article {
+  width: 50%;
+}
+
+div.bio {
+  width: 25%;
+  min-height:1px;
+}
+
+form {
+  width: 25%;
+}
+
 audio,
 canvas,
 video {
@@ -119,17 +132,17 @@ textarea {
   vertical-align: top;
 }
 
-.clearfix {
+.floatfix {
   *zoom: 1;
 }
 
-.clearfix:before,
-.clearfix:after {
+.floatfix:before,
+.floatfix:after {
   display: table;
   content: "";
 }
 
-.clearfix:after {
+.floatfix:after {
   clear: both;
 }
 
