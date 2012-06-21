@@ -2630,7 +2630,7 @@ button.close {
 }
 
 .nav {
-  margin-bottom: 18px;
+  padding-bottom: 18px;
   margin-left: 0;
   list-style: none;
 }

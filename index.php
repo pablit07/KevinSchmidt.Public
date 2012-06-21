@@ -17,6 +17,7 @@
 	<link href='css/global.css?v=3' rel='stylesheet' type='text/css'>
 	<link href='css/bootstrap.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/templates.css?v=2">
+	<link rel="stylesheet" type="text/css" href="css/modules.css?v=2">
 
 </head>
 <body class=""> 
@@ -62,9 +63,9 @@
 
 	</div>
 
-	<div class="headerWrapper">
+	
 
-
+	<div class="bannerWrapper">
 			<header class="primary">
 
 				<h1>Dr. Kevin Schmidt, <label>M.D., M.A., Pain Medicine Fellow; Interventional Psychiatrist</label></h1>
@@ -93,7 +94,8 @@
 			          </ul>
 	          		</div>
 	        	</div>
-	      
+	</div>
+	<div class="headerWrapper">      
 		<?php
 	
 	echoTemplate("columnLayout", array(

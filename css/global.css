@@ -73,8 +73,6 @@ h1 { display: inline-block;}
 
 .blueflame {
   background-image: url(../images/blue-flame.png);
-  -moz-background-size: cover;
-  -o-background-size: cover; /*HEY PAUL!!!!!!!!!! I found these two lines online. They don't seem to have an effect. What do they mean?*/
   margin:0;
   padding:0; 
   position:absolute; 
