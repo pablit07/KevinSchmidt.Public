@@ -28,6 +28,7 @@ article {
 div.bio {
   width: 25%;
   min-height:1px;
+  text-align: center;
 }
 
 form {
@@ -458,12 +459,21 @@ h6 {
   font-family: inherit;
   text-rendering: optimizelegibility;
   xfont-size:22px;
-  color:#4b767c;
+  
   margin:0 0 12px 0;
   padding:0;
   line-height:20px;
   font-family:Century Gothic, Arial, Helvetica, sans-serif;
   font-weight:normal;
+}
+
+h1 { color: #eee;}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:#4b767c;
 }
 
 h1 small,
@@ -786,7 +796,7 @@ textarea {
 label {
   display: block;
   margin-bottom: 5px;
-  color: #333333;
+  color: #a1a1a1;
 }
 
 input,
@@ -2630,7 +2640,7 @@ button.close {
 }
 
 .nav {
-  padding-bottom: 18px;
+  padding-bottom: 14px;
   margin-left: 0;
   list-style: none;
 }

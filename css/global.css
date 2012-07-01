@@ -6,7 +6,7 @@ ul, li {
 a {text-decoration: none;}
 body {width: 100%; height: 768px; overflow: scroll;}
 
-h1 { display: inline-block;}
+h1 { display: inline-block; color: #eee;}
 
 #contact-btn-toolbar {
   float: right;
@@ -37,26 +37,41 @@ h1 { display: inline-block;}
 	height: 0;
 	}
 
+div.bannerWrapper div.inner {
+  background-size:330px 270px;
+}
 
+div.bannerWrapper div.inner1 {
+  background: url("../images/pain.jpg") no-repeat;
+}
+
+div.bannerWrapper div.inner2 {
+  background: url("../images/sports-medicine.png") no-repeat;
+}
 .banner_link {
-  height: 261px;
-  width: 312px;
-  background-image: url(../images/frames_2.png);
+  height: 274px;
+  xbackground-image: url(../images/frames_1.png);
+  background-size: cover;
+  line-height: 482px;
+  color: black;
+  border: 8px solid #A2C7E8;
+
+}
+
+.inner + .inner .banner_link {
+  border-left: none;
 }
 
 .banner_link.middle_left_link {
-  background-position: -311px 0px;
-  width: 313px;
+  background-position: 0 -288px;
 }
 
-.banner_link.middle_right_link {
-  background-position: -311px 0px;
-  width: 312px;
+.banner_link.middle_link {
+  background-position: 0 -289px;
 }
 
 .banner_link.right_link {
-  background-position: -622px 0px;
-  width:316px;
+  background-position: 0 -574px;
 }
 
 .quick_link {
@@ -68,7 +83,8 @@ h1 { display: inline-block;}
 
 .primary {
   width: 1020px;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding: 24px 0;
 }
 
 .blueflame {
@@ -83,11 +99,18 @@ h1 { display: inline-block;}
 
 }
 
+.bio img {
+  border: 1px solid #CCCCCC;
+  display: inline-block;
+  margin-top: 30px;
+}
+
 .border_gradient {
   background-image: url(../images/border-gradient.jpg);
   background-repeat: repeat-x;
   background-size: 100% 40px;
   background-position: 0 202px;
+  height: 40px;
 }
 
 * html .clear             { zoom: 1; } /* IE6 */

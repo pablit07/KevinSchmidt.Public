@@ -65,15 +65,15 @@
 
 	
 
-	<div class="bannerWrapper">
+	<div class="headerWrapper">
 			<header class="primary">
 
 				<h1>Dr. Kevin Schmidt, <label>M.D., M.A., Pain Medicine Fellow; Interventional Psychiatrist</label></h1>
 				
 				<div id="contact-btn-toolbar"class="btn-toolbar">
 					<div class="btn-group">
-						<button class='btn btn-info btn-provider dropdown-toggle' data-toggle='dropdown'>Health Care Providers
-						 <label>Please click to contact</label></button>
+						<button class='btn btn-info btn-provider dropdown-toggle' data-toggle='dropdown'><strong>Health Care Providers</strong>
+						 <label>Please click here</label></button>
 						<ul class="dropdown-menu">
 				            <li><a href="#"> Ask a secure question</a></li>
 				            <li><a href="#">Health Care Provider Sign In</a></li>
@@ -84,8 +84,8 @@
 			          </ul>
 		          	</div>
 		      		<div class="btn-group">
-						<button class='btn btn-info btn-patient dropdown-toggle' data-toggle='dropdown'>Patients
-							<label>Please click to contact</label></button>
+						<button class='btn btn-info btn-patient dropdown-toggle' data-toggle='dropdown'><strong>Patients</strong>
+							<label>Please click here</label></button>
 						<ul class="dropdown-menu">
 				            <li><a href="#">Make An Appointment</a></li>
 				            <li class="divider"></li>
@@ -95,15 +95,18 @@
 	          		</div>
 	        	</div>
 	</div>
-	<div class="headerWrapper">      
+
+	<div class="blueWrapper"> </div>
+	<div class="border_gradient"> </div>
+	<div class="bannerWrapper">      
 		<?php
 	
 	echoTemplate("columnLayout", array(
-		"class"=>"floatfix",
+		"class"=>"floatfix primary",
 		"columns"=>array(
 			array("contents" => fillTemplate("pictureLink", array('class'=> 'banner_link', 'contents'=>'Comprehensive Pain Management', 'align'=>'centerBottom'))),
-			array("contents" => fillTemplate("pictureLink", array('class'=> array('banner_link', 'middle_left_link'), 'contents'=>'Sports & Musculoskeletal Medicine', 'align'=>'centerBottom'))),
-			array("contents" => fillTemplate("pictureLink", array('class'=> array('banner_link', 'middle_right_link'), 'contents'=>'Occupational Medicine', 'align'=>'centerBottom'))),
+			array("contents" => fillTemplate("pictureLink", array('class'=> array('banner_link', 'middle_link'), 'contents'=>'Sports & Musculoskeletal Medicine', 'align'=>'centerBottom'))),
+			array("contents" => fillTemplate("pictureLink", array('class'=> array('banner_link', 'middle_link'), 'contents'=>'Occupational Medicine', 'align'=>'centerBottom'))),
 			array("contents" => fillTemplate("pictureLink", array('class'=> array('banner_link', 'right_link'), 'contents'=>'Electrodiagnostic Medicine', 'align'=>'centerBottom')))
 
 			)));
@@ -134,7 +137,7 @@
 		</article>
 
 		<div class="bio fleft">
-			<img height=200 width=150 src='images/drs.png' />
+			<img height=200 width=150 src='images/drschmidt.jpg' />
 		</div>
 
 		<form class="fleft">

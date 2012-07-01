@@ -1,0 +1,45 @@
+
+.navWrapper {
+	background: none #fff;
+	background: url("../images/top-border-gradient.png") repeat-x;
+}
+
+.bannerWrapper {
+	background: none #fff;
+}
+.bannerWrapper .columnLayout {
+	width: 1024px;
+}
+.headerWrapper header {
+	padding: 8px 0;
+	z-index:10;
+}
+
+.blueWrapper {
+	height: 64px;
+	background: url(../images/blue-flame.png);
+	position: absolute;
+	top: 40px;
+
+}
+
+.headerWrapper {
+	position: absolute;
+	top: 40;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	
+}
+.headerWrapper header {
+	padding: 8px 0;
+	border-radius: 0 0 8px 8px;
+	margin-bottom: 1px;
+	padding: 2px 0 2px 0;
+	background-color: #101010;
+}
+
+
+.contentWrapper {
+
+}
