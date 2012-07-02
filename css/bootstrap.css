@@ -31,6 +31,16 @@ div.bio {
   text-align: center;
 }
 
+div.bio .frame {
+  background-image: url(../images/frame_2.png);
+  display: inline-block;
+  width: 189px;
+  height: 200px;
+  background-size: cover;
+  padding: 8px;
+  position: relative;
+}
+
 form {
   width: 25%;
 }

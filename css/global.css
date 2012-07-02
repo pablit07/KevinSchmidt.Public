@@ -46,8 +46,17 @@ div.bannerWrapper div.inner1 {
 }
 
 div.bannerWrapper div.inner2 {
-  background: url("../images/sports-medicine.png") no-repeat;
+  background: url("../images/sports-medicine2.jpg") no-repeat;
 }
+
+div.bannerWrapper div.inner3 {
+  background: url("../images/occupational-medicine.jpg") no-repeat;
+}
+
+div.bannerWrapper div.inner4 {
+  background: url("../images/electro-medicine.jpg") no-repeat;
+}
+
 .banner_link {
   height: 274px;
   xbackground-image: url(../images/frames_1.png);
@@ -89,20 +98,18 @@ div.bannerWrapper div.inner2 {
 
 .blueflame {
   background-image: url(../images/blue-flame.png);
-  margin:0;
-  padding:0; 
-  position:absolute; 
-  top:0; 
-  left:0; 
   background-size:100% 202px;  
   background-repeat: no-repeat;             
 
 }
 
 .bio img {
-  border: 1px solid #CCCCCC;
-  display: inline-block;
-  margin-top: 30px;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  border: 1px solid #6083A3;
+  border-top: 1px solid #9CC4E7;
+  border-left:none;
 }
 
 .border_gradient {

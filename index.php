@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="css/modules.css?v=2">
 
 </head>
-<body class=""> 
+<body class="blueflame"> 
 
 	<!-- add height and width. html duh. position them where they belong.  -->
 
@@ -137,7 +137,9 @@
 		</article>
 
 		<div class="bio fleft">
-			<img height=200 width=150 src='images/drschmidt.jpg' />
+			<div class="frame">
+				<img height=179 width=150 src='images/drschmidt.jpg' />
+			</div>
 		</div>
 
 		<form class="fleft">
