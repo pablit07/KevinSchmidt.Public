@@ -97,7 +97,6 @@
 	</div>
 
 	<div class="blueWrapper"> </div>
-	<div class="border_gradient"> </div>
 	<div class="bannerWrapper">      
 		<?php
 	
@@ -147,7 +146,7 @@
 				<h6>Appointments & Questions</h6>
 			<input type=text name=firstname value='First name'/>
 			<input type=text name=lastname value='Last name'/>
-			<input type=text name=email value='Email address ex. guy@thefarm.com'/>
+			<input type=text name=email value='Email address'/>
 			<label>
 				What is a description of your question or concern?
 			</label>

@@ -35,7 +35,7 @@ div.nav.alignCenter > ul { text-align: center; }
 div.nav.alignLeft > ul { text-align: left; }
 div.nav.alignRight > ul { text-align: right; }
 
-div.nav li { display: inline-block; text-align: center; background-color: #fff;}
+div.nav li { display: inline-block; text-align: center; }
 div.nav a { text-decoration: none; display: block;}
 div.nav li ul { position: absolute; top: 100%; visibility: hidden;}
 div.nav li:hover > ul { visibility: visible; }

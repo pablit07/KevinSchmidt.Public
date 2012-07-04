@@ -63,7 +63,7 @@ div.bannerWrapper div.inner4 {
   background-size: cover;
   line-height: 482px;
   color: black;
-  border: 8px solid #A2C7E8;
+  border: 16px solid #7E8EA0;
 
 }
 
@@ -93,11 +93,10 @@ div.bannerWrapper div.inner4 {
 .primary {
   width: 1020px;
   margin: 0px auto;
-  padding: 24px 0;
 }
 
 .blueflame {
-  background-image: url(../images/blue-flame.png);
+  background-image: url(../images/blue-flame2.png);
   background-size:100% 202px;  
   background-repeat: no-repeat;             
 
@@ -112,13 +111,6 @@ div.bannerWrapper div.inner4 {
   border-left:none;
 }
 
-.border_gradient {
-  background-image: url(../images/border-gradient.jpg);
-  background-repeat: repeat-x;
-  background-size: 100% 40px;
-  background-position: 0 202px;
-  height: 40px;
-}
 
 * html .clear             { zoom: 1; } /* IE6 */
 *:first-child+html .clear { zoom: 1; } /* IE7 */

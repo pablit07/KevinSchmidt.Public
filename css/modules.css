@@ -1,11 +1,11 @@
 
 .navWrapper {
-	background: none #fff;
 	background: url("../images/top-border-gradient.png") repeat-x;
 }
 
 .bannerWrapper {
-	background: none #fff;
+	position: absolute;
+	top: 148px; left: 0; right: 0;
 }
 .bannerWrapper .columnLayout {
 	width: 1024px;
@@ -16,10 +16,8 @@
 }
 
 .blueWrapper {
-	height: 64px;
-	background: url(../images/blue-flame.png);
-	position: absolute;
-	top: 40px;
+	height: 160px;
+	border-bottom: 1px solid #7E8EA0;
 
 }
 
@@ -29,11 +27,12 @@
 	z-index: 10;
 	left: 0;
 	right: 0;
+	top: 73px;
 	
 }
 .headerWrapper header {
 	padding: 8px 0;
-	border-radius: 0 0 8px 8px;
+	border-radius: 8px 8px 0 0;
 	margin-bottom: 1px;
 	padding: 2px 0 2px 0;
 	background-color: #101010;
@@ -41,5 +40,19 @@
 
 
 .contentWrapper {
+	margin-top: 296px;
+}
 
+.contentWrapper .columnLayout {
+  padding: 24px 0;
+}
+
+
+.border_gradient {
+  background-image: url(../images/border-gradient.png);
+  background-repeat: repeat-x;
+  background-size: 100% 40px;
+  height: 40px;
+  position: absolute;
+  left:0; right:0; top: 162px;
 }
