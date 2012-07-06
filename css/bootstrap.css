@@ -35,7 +35,7 @@ div.bio .frame {
   background-image: url(../images/frame_2.png);
   display: inline-block;
   width: 189px;
-  height: 200px;
+  height: 208px;
   background-size: cover;
   padding: 8px;
   position: relative;
@@ -560,7 +560,7 @@ h6 {
 ul,
 ol {
   padding: 0;
-  margin: 0 0 9px 25px;
+  margin: 0 0 9px 0;
 }
 
 ul ul,
@@ -2388,12 +2388,12 @@ table .span24 {
   width: 0;
   height: 0;
   vertical-align: top;
-  border-top: 4px solid #000000;
+  border-top: 4px solid #eee;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   content: "";
-  opacity: 0.3;
-  filter: alpha(opacity=30);
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 
 .dropdown .caret {
@@ -2655,7 +2655,21 @@ button.close {
   list-style: none;
 }
 
+.nav ul {
+  line-height: 40px;
+}
+
+.nav li {
+  position: relative;
+}
+
+.nav li > a {
+  color: #eee;
+  font-weight: bold;
+}
+
 .nav > li > a {
+  color: #eee;
   display: block;
 }
 

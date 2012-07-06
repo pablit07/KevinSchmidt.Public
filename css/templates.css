@@ -29,6 +29,7 @@ div.columnLayout5 > div.inner {	width: 20%; }
 div.nav {
 	width: 100%;
 	position: relative;
+	z-index: 20;
 }
 
 div.nav.alignCenter > ul { text-align: center; }
@@ -38,7 +39,9 @@ div.nav.alignRight > ul { text-align: right; }
 div.nav li { display: inline-block; text-align: center; }
 div.nav a { text-decoration: none; display: block;}
 div.nav li ul { position: absolute; top: 100%; visibility: hidden;}
-div.nav li:hover > ul { visibility: visible; }
+div.nav li:hover > ul { visibility: visible; background-color: #eee; }
+div.nav li:hover > ul li { text-align: center; border-left: none; border-bottom: 1px solid #575A5E; }
+div.nav li:hover > ul li a { color: #333;}
 
 div.nav li ul li { display: block; text-align: left; position: relative;}
 
@@ -51,9 +54,9 @@ div.nav a.contains {
 
 div.nav .caret {
   top: 8px;
-  right: -8px;
-
-  position: absolute;
+  left: 4px;
+  display: inline-block;
+  position: relative;
 }
 
 div.nav li:hover .caret {

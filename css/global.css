@@ -59,16 +59,10 @@ div.bannerWrapper div.inner4 {
 
 .banner_link {
   height: 274px;
-  xbackground-image: url(../images/frames_1.png);
   background-size: cover;
   line-height: 482px;
   color: black;
-  border: 16px solid #7E8EA0;
 
-}
-
-.inner + .inner .banner_link {
-  border-left: none;
 }
 
 .banner_link.middle_left_link {
@@ -131,9 +125,9 @@ div.bannerWrapper div.inner4 {
 }
 
 .nav li {
-  width: 89px;
+  width: 96px;
   text-align: center;
-  border-left: 1px solid black;
+  border-left: 1px solid #575A5E;
 }
 .nav li:first-child {
   border-left: 1px solid transparent;

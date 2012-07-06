@@ -5,14 +5,14 @@
 
 .bannerWrapper {
 	position: absolute;
-	top: 148px; left: 0; right: 0;
+	top: 150px; left: 0; right: 0;
+	background-color: #275787;
+    border-bottom: 3px solid #738FAB;
+    border-top: 1px solid #656E78;
 }
 .bannerWrapper .columnLayout {
 	width: 1024px;
-}
-.headerWrapper header {
-	padding: 8px 0;
-	z-index:10;
+	background-color: #4977A6;
 }
 
 .blueWrapper {
@@ -28,6 +28,8 @@
 	left: 0;
 	right: 0;
 	top: 73px;
+	background-color: #103C69;
+    border-top: 1px solid #575A5E;
 	
 }
 .headerWrapper header {
@@ -35,7 +37,7 @@
 	border-radius: 8px 8px 0 0;
 	margin-bottom: 1px;
 	padding: 2px 0 2px 0;
-	background-color: #101010;
+	z-index:10;
 }
 
 
