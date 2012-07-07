@@ -1,11 +1,11 @@
 
 .navWrapper {
-	background: url("../images/top-border-gradient.png") repeat-x;
+	background: url("../images/border-gradient.png") repeat-x;
 }
 
 .bannerWrapper {
 	position: absolute;
-	top: 150px; left: 0; right: 0;
+	top: 160px; left: 0; right: 0;
 	background-color: #275787;
     border-bottom: 3px solid #738FAB;
     border-top: 1px solid #656E78;
@@ -23,11 +23,10 @@
 
 .headerWrapper {
 	position: absolute;
-	top: 40;
+	top: 40px;
 	z-index: 10;
 	left: 0;
 	right: 0;
-	top: 73px;
 	background-color: #103C69;
     border-top: 1px solid #575A5E;
 	
@@ -46,15 +45,26 @@
 }
 
 .contentWrapper .columnLayout {
-  padding: 24px 0;
+	padding: 24px 0;
 }
 
 
-.border_gradient {
-  background-image: url(../images/border-gradient.png);
-  background-repeat: repeat-x;
-  background-size: 100% 40px;
-  height: 40px;
-  position: absolute;
-  left:0; right:0; top: 162px;
+.borderWrapper {
+	height: 40px;
+	position: absolute;
+	left:0; right:0; top: 120px;
+}
+
+.borderWrapper .primary {
+	height: 40px;
+ 	background-image: url(../images/border-gradient.png);
+ 	background-repeat: repeat-x;
+ 	background-size: 100% 40px;
+}
+
+.borderWrapper .primary:before {
+	content: " ";
+	width: 25%;
+	height: 40px;
+	background-color: #ececec;
 }

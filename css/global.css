@@ -125,12 +125,12 @@ div.bannerWrapper div.inner4 {
 }
 
 .nav li {
-  width: 96px;
+  width: 144px;
   text-align: center;
-  border-left: 1px solid #575A5E;
+  border-right: 1px solid #575A5E;
 }
 .nav li:first-child {
-  border-left: 1px solid transparent;
+  border-left: 1px solid #575A5E;
 }
 
 
