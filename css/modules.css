@@ -31,7 +31,7 @@
     border-top: 1px solid #575A5E;
 	
 }
-.headerWrapper header {
+.headerWrapper .header {
 	padding: 8px 0;
 	border-radius: 8px 8px 0 0;
 	margin-bottom: 1px;
@@ -55,16 +55,17 @@
 	left:0; right:0; top: 120px;
 }
 
-.borderWrapper .primary {
+.borderWrapper .border {
 	height: 40px;
  	background-image: url(../images/border-gradient.png);
  	background-repeat: repeat-x;
  	background-size: 100% 40px;
+ 	width: 1020px;
 }
 
-.borderWrapper .primary:before {
-	content: " ";
-	width: 25%;
+.borderWrapper .primary .siding {
+	width: 1020px;
 	height: 40px;
-	background-color: #ececec;
+	background-color: #275787;
+	position: relative;
 }

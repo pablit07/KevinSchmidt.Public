@@ -66,7 +66,7 @@
 	
 
 	<div class="headerWrapper">
-			<header class="primary">
+			<div class="header primary">
 
 				<h1>Dr. Kevin Schmidt, <label>M.D., M.A., Pain Medicine Fellow; Interventional Psychiatrist</label></h1>
 				
@@ -94,12 +94,29 @@
 			          </ul>
 	          		</div>
 	        	</div>
+        	</div>
 	</div>
 	
+	<!--
 	<div class="borderWrapper">
-		<div class="primary"> </div>
+		<div class="primary">
+			<div class="siding left"> </div>
+			<div class="siding right"> </div>
+		</div>
 	</div>
+	-->
+	<!--
+	<div class="borderWrapper">
+		<table style="width: 100%; table-layout: fixed;">
 
+			<tr>
+				<td>hi</td>
+				<td style="width: 1020px;"> <div class="border"> </div> </td>
+				<td>a table</td>
+			</tr>
+		</table>
+	</div>
+	-->
 	<div class="blueWrapper"> </div>
 	<div class="bannerWrapper">      
 		<?php
